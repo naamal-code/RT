@@ -3,6 +3,8 @@ const METHODS = {
   A: { name: "計算方法A", slope: 8.869, start: 10 },
   B: { name: "計算方法B", slope: 7.6, start: 24 },
   C: { name: "計算方法C", slope: 7.66, start: 24 },
+  D: { name: "計算方法D", slope: 4.72, start: 30 },
+
 };
 
 const els = {
@@ -144,3 +146,4 @@ if ("serviceWorker" in navigator) {
 } else {
   els.swStatus.textContent = "オフライン対応: 非対応ブラウザ";
 }
+
