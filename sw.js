@@ -1,6 +1,6 @@
 /* sw.js - offline cache for this PWA */
 
-const CACHE_NAME = "data-calc-v4"; // 更新したら v3, v4... に上げる
+const CACHE_NAME = "data-calc-v5"; // 更新したら v3, v4... に上げる
 
 // キャッシュするのは「本当に必要な最小限」に限定
 const PRECACHE_URLS = [
@@ -104,4 +104,5 @@ self.addEventListener("fetch", (event) => {
   );
 
 });
+
 
